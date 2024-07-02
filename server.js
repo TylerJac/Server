@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
     // Respond with a simple HTML page
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/html');
-    res.end('<html><body><h1>Welcome to my website!</h1></body></html>');
+    res.end('<html><body><h1>Welcome to the site</h1></body></html>');
   } else if (req.url === '/api') {
     // Respond with a JSON object containing a greeting message
     res.statusCode = 200;
